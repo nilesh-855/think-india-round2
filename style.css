@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  margin-top: -60px;
+  padding: 0;
+  max-width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: #3b413c;
+  width: 100%;
+  float: right;
+  padding: 0px;
+  height: 45px;
+  display: flex;
+}
+
+.nav-menu {
+  display: inline-table;
+  text-align: right;
+  width: 70%;
+  height: inherit;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.menu-btn {
+  background: transparent;
+  display: inline-block;
+  border: 0;
+  align-items: center;
+  margin-right: 20px;
+  line-height: 100%;
+  width: 100px;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.menu-btn:hover {
+  background: #daf0ee;
+}
+
+.menu-btn > a {
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-weight: bolder;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.menu-btn:hover > a {
+  color: #9db5b2;
+}
+
+.SkillsAndHobbies {
+  padding: 20px;
+  margin-left: 470px;
+  background-image: linear-gradient(rgb(124, 124, 201), white, blue);
+  width: 150px;
+  border: 1px black dotted;
+}
+.aboutYou {
+  display: flex;
+  margin-top: 100px;
+  padding: 5% 10% 5% 10%;
+  width: inherit;
+  background-color: #daf0ee;
+}
+
+.aboutYou,
+.aboutYou > h1,
+.aboutYou > p,
+.aboutYou > img {
+  width: inherit;
+}
+
+.aboutPara {
+  width: 50%;
+  text-align: right;
+  align-self: center;
+}
+
+.aboutPara > h1 {
+  font-size: 100px;
+  line-height: 10px;
+}
+
+.aboutPara > p {
+  font-size: 30px;
+}
+
+.aboutImg {
+  width: 50%;
+  text-align: center;
+}
+
+.aboutImg > img {
+  border-radius: 50%;
+  width: 80%;
+  box-shadow: 0px 0px 20px 1px black;
+}
+
+th,
+td {
+  background-image: linear-gradient(to top, rgb(221, 147, 240), white, blue);
+  border: 1px solid rgb(88, 39, 82);
+}
