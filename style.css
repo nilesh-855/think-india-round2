@@ -49,17 +49,28 @@ body {
   font-size: 15px;
   text-decoration: none;
 }
+.social-btn>a{
+  margin-left: 70px;
+  color: #7f5539;
+  font-family: "Segoe UI";
+  font-weight: bolder;
+  font-size: 15px;
+  border: 0px solid black;
+  text-decoration: none;
+  }
 
 .menu-btn:hover > a {
-  color: #9db5b2;
+  color: #123f39;
 }
 
 .SkillsAndHobbies {
-  padding: 20px;
-  margin-left: 470px;
-  background-image: linear-gradient(rgb(124, 124, 201), white, blue);
-  width: 150px;
-  border: 1px black dotted;
+  
+ 
+  font-family: cursive;
+  background-color: #94D1BE;
+  padding: 10px;
+  margin-left: 0px;
+  border: 0px;
 }
 .aboutYou {
   display: flex;
@@ -104,6 +115,20 @@ body {
 
 th,
 td {
-  background-image: linear-gradient(to top, rgb(221, 147, 240), white, blue);
-  border: 1px solid rgb(88, 39, 82);
+  box-shadow: 0px 0px 20px 1px black;
+  font-size: 20px;
+ width: auto;
+  background-color: #B5F8FE;
+  border: 3px dotted #10FFCB;
+}
+.footer1{
+  margin-top: -20px;
+  background-color: #FCE4D8;
+  
+}
+
+.social-btn:hover{
+  
+  padding-left: 30px;
+  background-color:#003049;
 }
