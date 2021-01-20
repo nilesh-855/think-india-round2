@@ -141,4 +141,11 @@ td {
   html{
     font-size: 45%;
   }
+  .aboutImg{
+    margin-left: 10%;
+    border-radius: 25%;
+  }
+  body{
+    font-size:40%;
+  }
 }
