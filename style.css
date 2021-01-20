@@ -12,8 +12,8 @@ body {
   background-color: #3b413c;
   width: 100%;
   float: right;
-  padding: 0px;
-  height: 45px;
+  padding: 1%;
+  height: auto;
   display: flex;
 }
 
@@ -22,7 +22,7 @@ body {
   text-align: right;
   width: 70%;
   height: inherit;
-  margin-right: 0;
+  margin-right: 0%;
   margin-left: auto;
 }
 
@@ -31,9 +31,9 @@ body {
   display: inline-block;
   border: 0;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 2.5%;
   line-height: 100%;
-  width: 100px;
+  width: 10%;
   height: 100%;
   vertical-align: middle;
 }
@@ -46,35 +46,33 @@ body {
   color: #ffffff;
   font-family: "Segoe UI";
   font-weight: bolder;
-  font-size: 15px;
+  font-size: 100%;
   text-decoration: none;
 }
-.social-btn>a{
-  margin-left: 70px;
+.social-btn > a {
+  margin-left: 5%;
   color: #7f5539;
   font-family: "Segoe UI";
   font-weight: bolder;
-  font-size: 15px;
-  border: 0px solid black;
+  font-size: 100%;
+  /* border: 0px solid black; */
   text-decoration: none;
-  }
+}
 
 .menu-btn:hover > a {
   color: #123f39;
 }
 
 .SkillsAndHobbies {
-  
- 
   font-family: cursive;
-  background-color: #94D1BE;
-  padding: 10px;
-  margin-left: 0px;
-  border: 0px;
+  background-color: #94d1be;
+  padding: 1%;
+  margin-left: 0%;
+  border: 0%;
 }
 .aboutYou {
   display: flex;
-  margin-top: 100px;
+  margin-top: 0%;
   padding: 5% 10% 5% 10%;
   width: inherit;
   background-color: #daf0ee;
@@ -99,10 +97,11 @@ body {
 }
 
 .aboutPara > p {
-  font-size: 30px;
+  font-size: 150%;
 }
 
 .aboutImg {
+  margin-top: 10%;
   width: 50%;
   text-align: center;
 }
@@ -116,19 +115,17 @@ body {
 th,
 td {
   box-shadow: 0px 0px 20px 1px black;
-  font-size: 20px;
- width: auto;
-  background-color: #B5F8FE;
-  border: 3px dotted #10FFCB;
+  font-size: 120%;
+  width: auto;
+  background-color: #b5f8fe;
+  border: 3px dotted #10ffcb;
 }
-.footer1{
-  margin-top: -20px;
-  background-color: #FCE4D8;
-  
+.footer1 {
+  margin-top: -1.2%;
+  background-color: #fce4d8;
 }
 
-.social-btn:hover{
-  
-  padding-left: 30px;
-  background-color:#003049;
+.social-btn:hover {
+  padding-left: 1%;
+  background-color: #003049;
 }
